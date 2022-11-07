@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bela Flor</title>
+
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <script src="https://kit.fontawesome.com/adf991ffbf.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/Icon/Site_icon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Bela <span>flor</span></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#portfolio">Nossas flores</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <h2 class="topo">Aqui você encontra as melhores flores e rosas, para qualquer ocasião!</h2>
+          <div class="image">
+            <img
+              src="assets/img/ab1a29e702a11503a99e087b6ddd0931.png"
+              alt="Arranjo de flores"
+            />
+          </div>
+
+          <div class="divider-2"></div>
+
+          <div class="text">
+            <h2 class="title">Flores de todos os lugares do mundo</h2>
+            <p>
+              Traga a Australia para sua sala. O Japão para seu casamento.
+            </p>
+            <a class="button" href="#portifolio">Conheça as flores</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="image1">
+        <div class="container">
+          <div class="image">
+            <img
+              src="assets/img/florista.jpg"
+              alt="Um girasol"
+              />
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Quem somos</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços para</h2>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="fa-solid fa-gem"></i>
+              <h3 class="title">Casamento</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-star"></i>
+              <h3 class="title">Decoração</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-champagne-glasses"></i>
+              <h3 class="title">Festas</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="portifolio">
+        <header>
+          <h2 class="title">Nossas flores</h2>
+        </header>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/img/img1.jpg" class="image-slider">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/img/img2.jpg" class="image-slider">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/img/img3.jpg" class="image-slider">
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+    
+  </body>
+</html>
